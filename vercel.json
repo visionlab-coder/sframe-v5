@@ -1,9 +1,15 @@
 {
-    "version": 2,
     "rewrites": [
         {
             "source": "/(.*)",
-            "destination": "/index.html"
+            "destination": "/frontend/index.html"
+        }
+    ],
+    "redirects": [
+        {
+            "source": "/",
+            "destination": "/frontend/index.html",
+            "permanent": false
         }
     ]
 }
